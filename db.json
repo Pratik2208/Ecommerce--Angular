@@ -1,0 +1,17 @@
+{
+  "seller": [
+    {
+      "name": "pratik",
+      "password": "12343y4",
+      "email": "pratikpanchal827@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "pratik",
+      "password": "12343y4",
+      "email": "pratikpanchal827@gmail.com",
+      "id": 2
+    }
+  ],
+  "product": []
+}

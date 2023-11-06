@@ -1,0 +1,29 @@
+.table{
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+}
+
+.table td , .table th{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    min-height: 100px;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+.deleteIcon{
+    max-height: 20px;
+    max-width: 20px;
+    cursor: pointer;
+}
+
+.updateIcon{
+    max-height: 20px;
+    max-width: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+}

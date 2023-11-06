@@ -1,0 +1,10 @@
+.signup , .login{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 80px;
+}
+
+.link-styling{
+    margin-top: 5%;
+    cursor: pointer;
+}
