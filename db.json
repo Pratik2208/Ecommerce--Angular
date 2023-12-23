@@ -9,42 +9,6 @@
   ],
   "product": [
     {
-      "name": "Dell Laptop",
-      "price": "50000",
-      "color": "White",
-      "category": "Laptop",
-      "description": "Dell Product",
-      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-5430-intel/media-gallery/silver/non-touch-2-piece-metal/in5430nt-cnb-00000ff090-sl-2pc.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=651&qlt=100,1&resMode=sharp2&size=651,402&chrss=full",
-      "id": 1
-    },
-    {
-      "name": "Iphone",
-      "price": "100000",
-      "color": "White",
-      "category": "Phone",
-      "description": "Apple Phone",
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAB/CAMAAAAKGNq7AAAAbFBMVEX////29vbq6urPz8+wsLC9vb2NjY1paWldXV1CQkIxMTHDw8OQkJCpqak6Ojr6+vpLS0sAAAAgICCXl5dubm5RUVFYWFglHiChoaHk5OS2trZjY2Pd3d2Hh4fJyckYGBgqKCl+fn4PEA8eGBpHz7o2AAACpElEQVR4nO3b226jMBAG4ICBYIMNAZvlYE7Z93/HhZyaSNltYnm0Dp2/vSgKVj4NHpWIzG6HwfygZEMbLD+XBGv40wQt8YApISeLhtdLyuX3adJTlpd73gBamjophVDVKWIsnmUU8fn1XHRlNIBZ/DTMp9DPzkf14fTm0zQxNn1hDvXlbI/Iop+TXQZiycr2MH8dnjBTsVoYK35dc8MsSQrZkQxE0waivzvU4+Gc43G8/rnkt747J5mkbHzPPidLo+KhP8ipay49de0hrh8W9Xlca89+WyU1C95e5B333aDtl4ano//+KlkpPjTWNVwyg1U1VX2rfdu7mFexwapQKLmWxq5lV6u9GWZfhtZ3jTGmS9frZBfDTTFxFBDf8nUyxVTKIYwSDmFyCEydbwADcplMW9upysBgTCuTu4TpHLpMijqE2fwG9lKHMIF0CMMRYx1TuYQBuNPjkiLmOWZvhmGI+QgM3TqmdQmTpcIdzK5EDGIQgxjEIAYxiPlwTM+MMJOAwMyFEeY4QWAilyrj1J5BzN/i1EcVxCAGMYiBxkQuYZyqDGIQg5j/joF44r+Nymz+38EWMAIxPxdj2No/oDKIQcxHY3rEIAYxW8TMZs8OgDCGlYH4zpXp8yanMDTv0tb+nZ4xprSP4UwYrKophRi2ImLU35/1mGxHKyrrxP68YFx0b69pJ6XmgNgfF0zE/SjrSyGsol0U2p8WXPvpEL21ICnyfC0MxMCrJ8U4Bdp7LU3SHXKqZoiZzmU3Zo0U7Mjy1yIKltNqhti9J42vS8r+EfEQKpTsOcTk7QVD2kjGSn1fF1XF+zmtW4BGumA8Xw8h57c5/jVRlD7Lcg4PQqIh9u5N02hChuSFDITohQJmWfew5/kvZ2kpmJn6m+atAErA8wcgdlQza7lr3wAAAABJRU5ErkJggg==",
-      "id": 3
-    },
-    {
-      "name": "Samsung Laptop",
-      "price": "80000",
-      "color": "White",
-      "category": "Laptop",
-      "description": "Samsung Product",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFtsbNs3VcAR5juSzCC2-pAlycfu-sNaUUD7c2oQFxhKmV6MpA01DYiGWXMS3Hsn4pjY&usqp=CAU",
-      "id": 4
-    },
-    {
-      "name": "Shoes",
-      "price": "2000",
-      "color": "Black",
-      "category": "Shoes",
-      "description": "Nike Shoes",
-      "image": "data:image/jpeg;base64,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",
-      "id": 5
-    },
-    {
       "name": "Truck",
       "price": 1000,
       "color": "Red",
@@ -61,6 +25,15 @@
       "description": "Children Plane",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQYXezB5RCL9lp3NZZvJW2p43aQMC4jP7bJA&usqp=CAU",
       "id": 7
+    },
+    {
+      "name": "Dell Laptop",
+      "price": 13993,
+      "color": "Blue",
+      "category": "Laptop",
+      "description": "xyz",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/g-series/g16-7630/media-gallery/white/notebook-g16-7630-nt-white-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3500&hei=2625&qlt=100,1&resMode=sharp2&size=3500,2625&chrss=full&imwidth=5000",
+      "id": 8
     }
   ]
 }
