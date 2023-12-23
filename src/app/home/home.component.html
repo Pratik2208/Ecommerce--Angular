@@ -1,29 +1,23 @@
-<ngb-carousel *ngIf="images">
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[0]" alt="Random first slide" />
+<h1>Trendy Products</h1>
+<div class="row">
+	<div class="col-sm-3" *ngFor="let item of trendyProducts">
+		<div class="product-item">
+		    <div class="product-image">
+				<img src="{{item.image}}">
+			<div class="product-description">
+				<h6 class="name">{{item.name}}</h6>
+				<div class="product-price">
+					<h6>{{item.price}}</h6>
+				</div>
+				<div class="product-color">
+					<h6>{{item.color}}</h6>
+				</div>
+			</div>
+			<div class="footer">
+				<a class="details" href="">{{item.name}}</a>
+				<a class="addtocart" href="">Add To Cart</a>
+			</div>
+		    </div>
 		</div>
-		<div class="carousel-caption">
-			<h3>First slide label</h3>
-			<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[1]" alt="Random second slide" />
-		</div>
-		<div class="carousel-caption">
-			<h3>Second slide label</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[2]" alt="Random third slide" />
-		</div>
-		<div class="carousel-caption">
-			<h3>Third slide label</h3>
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-		</div>
-	</ng-template>
-</ngb-carousel>
+	</div>
+</div>
